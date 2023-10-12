@@ -16,7 +16,7 @@ jobs:
     - name: Step 01 - Terraform Setup
       uses: hashicorp/setup-terraform@v2
       with:
-        terraform_version: 1.6.1
+        terraform_version: 1.6.1 
 
     - name: Step 02 - Terraform Version
       run : terraform --version
